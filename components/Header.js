@@ -13,7 +13,7 @@ import { HomeIcon } from "@heroicons/react/solid";
 
 const Header = () => {
   return (
-    <div className="shadow-sm border-b sticky top-0 z-50 bg-whitesmoke">
+    <div className="shadow-sm border-b sticky top-0 z-50 bg-white">
       <div className="flex justify-between max-w-6xl mx-5 lg:mx-auto">
         {/* left */}
         <div className="relative hidden lg:inline-grid  w-24 cursor-pointer ">
@@ -49,7 +49,7 @@ const Header = () => {
           <UserGroupIcon className="navBtn" />
           <HeartIcon className="navBtn" />
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYH_VDaGfxQ_cPhkgDPyoxXJgnnKHzEw7kdg&usqp=CAU"
+            src="https://randomuser.me/api/portraits/men/25.jpg"
             alt="pro pic "
             className="h-10 w-10 rounded-full cursor-pointer "
           />
